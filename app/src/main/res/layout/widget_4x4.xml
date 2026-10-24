@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/w_bg"
+    android:paddingStart="13dp" android:paddingEnd="13dp" android:paddingTop="11dp" android:paddingBottom="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:id="@+id/hd" android:text="待办" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:textSize="10sp" android:letterSpacing="0.14"
+            android:textStyle="bold" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+        <TextView android:id="@+id/hd_sub" android:text="周三 · 第 7 周" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/hA" android:text="逾期 · 1" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="8.5sp" android:letterSpacing="0.1" android:textStyle="bold"
+            android:textColor="@color/cq_w_accent" android:singleLine="true"
+            android:layout_marginTop="6dp" android:layout_marginBottom="1dp" />            <LinearLayout android:id="@+id/A1_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/A1_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/A1_title" android:text="读书论文(第八章)" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/A1_sub" android:text="中国近现代史纲要 · 10/17 23:59" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/A1_chip" android:text="逾期 2 天 17 时" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/A2_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/A2_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/A2_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/A2_sub" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/A2_chip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/A3_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/A3_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/A3_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/A3_sub" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/A3_chip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>        <TextView android:id="@+id/hB" android:text="两天内 · 2" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="8.5sp" android:letterSpacing="0.1" android:textStyle="bold"
+            android:textColor="@color/cq_w_accent" android:singleLine="true"
+            android:layout_marginTop="6dp" android:layout_marginBottom="1dp" />            <LinearLayout android:id="@+id/B1_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/B1_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/B1_title" android:text="习题集 4(第四、五章)" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/B1_sub" android:text="概率论与数理统计A · 10/19 23:59" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/B1_chip" android:text="剩 17 时" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/B2_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/B2_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/B2_title" android:text="第三章 搜索算法 课后习题" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/B2_sub" android:text="人工智能基础及应用 · 10/21 23:59" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/B2_chip" android:text="剩 1 天" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/B3_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/B3_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/B3_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/B3_sub" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/B3_chip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>        <TextView android:id="@+id/hC" android:text="本周 · 1" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="8.5sp" android:letterSpacing="0.1" android:textStyle="bold"
+            android:textColor="@color/cq_w_accent" android:singleLine="true"
+            android:layout_marginTop="6dp" android:layout_marginBottom="1dp" />            <LinearLayout android:id="@+id/C1_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/C1_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/C1_title" android:text="实验报告 2:谓词逻辑推理" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/C1_sub" android:text="离散数学 · 10/23 23:59" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/C1_chip" android:text="剩 3 天" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/C2_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/C2_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/C2_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/C2_sub" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/C2_chip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/C3_row"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/C3_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="14sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/C3_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/C3_sub" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="8.5sp"
+                        android:textColor="@color/cq_w_ink3" />
+                </LinearLayout>
+                <TextView android:id="@+id/C3_chip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="1dp"
+        android:background="@drawable/w_line" android:layout_marginTop="9dp" android:layout_marginBottom="7dp" />
+    <LinearLayout android:id="@+id/cls_box" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:id="@+id/cls_hd" android:text="今日课表" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="9sp" android:letterSpacing="0.14" android:textStyle="bold"
+            android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="6dp">
+            <LinearLayout android:id="@+id/c1_row" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@drawable/w_card"
+                android:padding="7dp" android:layout_marginEnd="5dp">
+                <TextView android:id="@+id/c1_bar" android:layout_width="14dp" android:layout_height="2.5dp"
+                    android:background="@drawable/w_bar_c1" android:layout_marginBottom="5dp" />
+                <TextView android:id="@+id/c1_time" android:text="10:00" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+                <TextView android:id="@+id/c1_name" android:text="模拟电子技术" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/cq_w_ink"
+                    android:singleLine="true" android:ellipsize="end" android:layout_marginTop="1dp" />
+                <TextView android:id="@+id/c1_room" android:text="B座518" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink2" android:singleLine="true"
+                    android:ellipsize="end" android:layout_marginTop="2dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/c2_row" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@drawable/w_card"
+                android:padding="7dp" android:layout_marginEnd="5dp">
+                <TextView android:id="@+id/c2_bar" android:layout_width="14dp" android:layout_height="2.5dp"
+                    android:background="@drawable/w_bar_c1" android:layout_marginBottom="5dp" />
+                <TextView android:id="@+id/c2_time" android:text="14:00" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+                <TextView android:id="@+id/c2_name" android:text="概率论" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/cq_w_ink"
+                    android:singleLine="true" android:ellipsize="end" android:layout_marginTop="1dp" />
+                <TextView android:id="@+id/c2_room" android:text="B座414" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink2" android:singleLine="true"
+                    android:ellipsize="end" android:layout_marginTop="2dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/c3_row" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@drawable/w_card"
+                android:padding="7dp" android:layout_marginEnd="5dp">
+                <TextView android:id="@+id/c3_bar" android:layout_width="14dp" android:layout_height="2.5dp"
+                    android:background="@drawable/w_bar_c1" android:layout_marginBottom="5dp" />
+                <TextView android:id="@+id/c3_time" android:text="16:00" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+                <TextView android:id="@+id/c3_name" android:text="复变函数" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/cq_w_ink"
+                    android:singleLine="true" android:ellipsize="end" android:layout_marginTop="1dp" />
+                <TextView android:id="@+id/c3_room" android:text="C座207" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink2" android:singleLine="true"
+                    android:ellipsize="end" android:layout_marginTop="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+        <ProgressBar android:id="@+id/week_bar" style="@android:style/Widget.Material.ProgressBar.Horizontal"
+            android:layout_width="0dp" android:layout_height="3dp" android:layout_weight="1"
+            android:progressDrawable="@drawable/w_progress" android:max="22" android:progress="7" />
+        <TextView android:id="@+id/week_lbl" android:text="第 7 / 22 周" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:singleLine="true"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

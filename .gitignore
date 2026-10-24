@@ -1,0 +1,32 @@
+# --- Android / Gradle ---
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.hprof
+
+# --- IDE ---
+.idea/
+*.ipr
+*.iws
+.vscode/
+
+# --- 构建产物 ---
+*.apk
+*.aab
+*.ap_
+*.dex
+!docs/**/*.apk
+
+# --- 系统 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- 本地实验/临时 ---
+*.log
+/tmp/
+/scratch/

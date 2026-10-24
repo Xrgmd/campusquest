@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  彩虹版小组件底:「把彩虹搅匀」的做法 —— 两层不同角度的线性渐变叠在一起,
+  再盖一层白色薄雾(35% 白)保证深色文字始终读得清。
+  只用 shape/gradient,不用图片,免得多尺寸缩放糊掉。
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#FFB4D8FF"
+                android:centerColor="#FFE7C4F5"
+                android:endColor="#FFFFD9C2" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <gradient
+                android:type="linear"
+                android:angle="45"
+                android:startColor="#66B6F5D6"
+                android:centerColor="#40FFFFFF"
+                android:endColor="#66FFE9A8" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="#2EFFFFFF" />
+            <stroke android:width="1dp" android:color="#99FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

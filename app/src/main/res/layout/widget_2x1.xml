@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/w_bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="11dp" android:paddingEnd="10dp" android:paddingTop="5dp" android:paddingBottom="5dp">
+        <LinearLayout android:id="@+id/one_row" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:id="@+id/one_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="○" android:textSize="16sp" android:textColor="@color/cq_w_ink3"
+                android:paddingEnd="7dp" android:paddingStart="1dp" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/one_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:singleLine="true" android:ellipsize="end" android:textSize="12.5sp"
+                    android:text="读书论文(第八章)"
+                    android:textColor="@color/cq_w_ink" />
+                <TextView android:id="@+id/one_sub" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:singleLine="true" android:ellipsize="end" android:textSize="9sp"
+                    android:text="中国近现代史纲要"
+                    android:textColor="@color/cq_w_ink3" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/one_chip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/w_chip_danger" android:paddingStart="5dp" android:paddingEnd="5dp"
+            android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+            android:text="逾期 2 天" android:textSize="8.5sp" android:textColor="@color/cq_w_danger"
+            android:layout_marginStart="6dp" />
+    </LinearLayout>
+</FrameLayout>

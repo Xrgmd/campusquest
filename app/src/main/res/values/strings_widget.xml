@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="w_desc_2_1">极简条 2×1 · 只放一件最急的事</string>
+    <string name="w_desc_2_2">小三件 2×2 · 三件待办 + 下一节课</string>
+    <string name="w_desc_4_1">今日横条 4×1 · 日期 / 待办 / 下一节</string>
+    <string name="w_desc_4_2">待办 + 今日课 4×2</string>
+    <string name="w_desc_4_4">完整面板 4×4 · 分组待办 + 课表 + 周进度</string>
+    <string name="w_desc_5_4">双栏桌面 5×4 · 平板 / 折叠 / 大屏</string>
+</resources>

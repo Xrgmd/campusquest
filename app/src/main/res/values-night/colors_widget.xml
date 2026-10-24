@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 小组件专用色板(深色) -->
+    <color name="cq_w_bg">#16161C</color>
+    <color name="cq_w_border">#2A2A33</color>
+    <color name="cq_w_card">#1E1E26</color>
+    <color name="cq_w_line">#2E2E38</color>
+    <color name="cq_w_ink">#EDEDF2</color>
+    <color name="cq_w_ink2">#A7A7B4</color>
+    <color name="cq_w_ink3">#75757F</color>
+    <color name="cq_w_accent">#93A5FF</color>
+    <color name="cq_w_danger">#FC8181</color>
+    <color name="cq_w_warn">#F6AD55</color>
+    <color name="cq_w_ok">#68D391</color>
+    <color name="cq_w_chip_danger">#3A2226</color>
+    <color name="cq_w_chip_warn">#3A2F20</color>
+    <color name="cq_w_chip_ok">#1E3229</color>
+    <color name="cq_w_chip_mute">#26262E</color>
+    <color name="cq_w_c1">#8B9DFF</color>
+    <color name="cq_w_c2">#4FD1C5</color>
+    <color name="cq_w_c3">#F6AD55</color>
+    <color name="cq_w_c4">#F687B3</color>
+    <color name="cq_w_c5">#B794F4</color>
+    <color name="cq_w_c6">#63B3ED</color>
+    <color name="cq_w_c7">#9AE6B4</color>
+    <color name="cq_w_accent_soft">#2493A5FF</color>
+</resources>

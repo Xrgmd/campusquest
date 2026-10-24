@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:background="@drawable/w_bg"
+    android:paddingStart="12dp" android:paddingEnd="12dp" android:paddingTop="9dp" android:paddingBottom="9dp">
+    <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="1.15" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:id="@+id/hd" android:text="待办 · 4" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:textSize="9.5sp" android:letterSpacing="0.12"
+                android:textColor="@color/cq_w_ink3" android:textStyle="bold" android:singleLine="true" />
+            <TextView android:id="@+id/hd_sub" android:text="周三 10/21 · 第 7 周" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:orientation="vertical" android:layout_marginTop="2dp">
+            <LinearLayout android:id="@+id/t1_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2.5dp" android:paddingBottom="2.5dp">
+                <TextView android:id="@+id/t1_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="15sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/t1_title" android:text="读书论文(第八章)" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/t1_sub" android:text="中国近现代史纲要" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="9sp"
+                        android:textColor="@color/cq_w_ink3" android:layout_marginTop="0.5dp" />
+                </LinearLayout>
+                <TextView android:id="@+id/t1_chip" android:text="逾期 2 天" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/t2_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2.5dp" android:paddingBottom="2.5dp">
+                <TextView android:id="@+id/t2_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="15sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/t2_title" android:text="习题集 4(第四、五章)" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/t2_sub" android:text="概率论与数理统计A" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="9sp"
+                        android:textColor="@color/cq_w_ink3" android:layout_marginTop="0.5dp" />
+                </LinearLayout>
+                <TextView android:id="@+id/t2_chip" android:text="剩 17h" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/t3_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2.5dp" android:paddingBottom="2.5dp">
+                <TextView android:id="@+id/t3_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="15sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/t3_title" android:text="第三章 搜索算法 课后习题" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/t3_sub" android:text="人工智能基础及应用" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="9sp"
+                        android:textColor="@color/cq_w_ink3" android:layout_marginTop="0.5dp" />
+                </LinearLayout>
+                <TextView android:id="@+id/t3_chip" android:text="剩 1 天" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/t4_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2.5dp" android:paddingBottom="2.5dp">
+                <TextView android:id="@+id/t4_chk" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="○" android:textSize="15sp" android:textColor="@color/cq_w_ink3"
+                    android:paddingEnd="6dp" android:paddingStart="1dp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/t4_title" android:text="拿快递" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="11sp"
+                        android:textColor="@color/cq_w_ink" />
+                    <TextView android:id="@+id/t4_sub" android:text="支线" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:singleLine="true" android:ellipsize="end" android:textSize="9sp"
+                        android:textColor="@color/cq_w_ink3" android:layout_marginTop="0.5dp" />
+                </LinearLayout>
+                <TextView android:id="@+id/t4_chip" android:text="不限时" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/w_chip_mute" android:paddingStart="5dp" android:paddingEnd="5dp"
+                    android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:singleLine="true"
+                    android:textSize="8.5sp" android:textColor="@color/cq_w_ink3" android:layout_marginStart="6dp" />
+            </LinearLayout>        </LinearLayout>
+        <TextView android:id="@+id/empty" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="今天没有待办" android:textSize="10sp" android:textColor="@color/cq_w_ink3"
+            android:visibility="gone" android:layout_marginTop="4dp" />
+    </LinearLayout>
+    <TextView android:id="@+id/col_div" android:layout_width="1dp" android:layout_height="match_parent"
+        android:background="@drawable/w_line" android:layout_marginStart="9dp" android:layout_marginEnd="9dp" />
+    <LinearLayout android:id="@+id/cls_box" android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/cls_hd" android:text="今天还要上" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="9.5sp" android:letterSpacing="0.12" android:textColor="@color/cq_w_ink3"
+            android:textStyle="bold" android:singleLine="true" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:orientation="vertical" android:layout_marginTop="2dp">
+            <LinearLayout android:id="@+id/c1_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/c1_bar" android:layout_width="3dp" android:layout_height="14dp"
+                    android:background="@drawable/w_bar_c1" android:layout_marginEnd="7dp" />
+                <TextView android:id="@+id/c1_time" android:text="10:00" android:layout_width="36dp" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+                <TextView android:id="@+id/c1_name" android:text="模拟电子技术" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:textSize="11sp" android:textColor="@color/cq_w_ink"
+                    android:singleLine="true" android:ellipsize="end" />
+                <TextView android:id="@+id/c1_room" android:text="B座518" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true"
+                    android:layout_marginStart="4dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/c2_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/c2_bar" android:layout_width="3dp" android:layout_height="14dp"
+                    android:background="@drawable/w_bar_c1" android:layout_marginEnd="7dp" />
+                <TextView android:id="@+id/c2_time" android:text="14:00" android:layout_width="36dp" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+                <TextView android:id="@+id/c2_name" android:text="概率论" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:textSize="11sp" android:textColor="@color/cq_w_ink"
+                    android:singleLine="true" android:ellipsize="end" />
+                <TextView android:id="@+id/c2_room" android:text="B座414" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true"
+                    android:layout_marginStart="4dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/c3_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/c3_bar" android:layout_width="3dp" android:layout_height="14dp"
+                    android:background="@drawable/w_bar_c1" android:layout_marginEnd="7dp" />
+                <TextView android:id="@+id/c3_time" android:text="16:00" android:layout_width="36dp" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+                <TextView android:id="@+id/c3_name" android:text="复变函数" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:textSize="11sp" android:textColor="@color/cq_w_ink"
+                    android:singleLine="true" android:ellipsize="end" />
+                <TextView android:id="@+id/c3_room" android:text="C座207" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true"
+                    android:layout_marginStart="4dp" />
+            </LinearLayout>            <LinearLayout android:id="@+id/c4_row"
+                android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingTop="2dp" android:paddingBottom="2dp">
+                <TextView android:id="@+id/c4_bar" android:layout_width="3dp" android:layout_height="14dp"
+                    android:background="@drawable/w_bar_c1" android:layout_marginEnd="7dp" />
+                <TextView android:id="@+id/c4_time" android:text="19:00" android:layout_width="36dp" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true" />
+                <TextView android:id="@+id/c4_name" android:text="离散数学" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:textSize="11sp" android:textColor="@color/cq_w_ink"
+                    android:singleLine="true" android:ellipsize="end" />
+                <TextView android:id="@+id/c4_room" android:text="B座101" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="9sp" android:textColor="@color/cq_w_ink3" android:singleLine="true"
+                    android:layout_marginStart="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
